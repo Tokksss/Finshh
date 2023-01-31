@@ -459,6 +459,7 @@ h3 {
 .fa-clock {
     font-size: 0.4rem;
 }
+
 /* 
 .news1:hover {
     color: #464646;
@@ -747,6 +748,13 @@ footer {
     color: #cbd0d2;
 }
 
+.footer_ul {
+    cursor: pointer;
+}
+
+.footer_ul:hover {
+    color: #082A3A;
+}
 
 .footer_icons {
     display: flex;
@@ -780,8 +788,4 @@ footer {
 
 .fa-earth-americas:hover {
     color: #8099e9;
-}
-
-.footer_ul:hover {
-    color: darkblue;
 }

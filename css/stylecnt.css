@@ -310,8 +310,8 @@ header {
   background-position: center;
   background-size: cover;
   font-family: Cuprum;
-border-radius: 15px;
-margin-top: 95px;
+  border-radius: 15px;
+  margin-top: 95px;
   /* background-size: 100% 100%; */
 }
 
@@ -464,7 +464,7 @@ input {
 .section_3 {
   width: 80%;
   margin: 40px auto 100px auto;
-  
+
 }
 
 .spilo {
@@ -508,6 +508,15 @@ footer {
   color: #cbd0d2;
 }
 
+.footer_ul {
+  cursor: pointer;
+}
+
+
+.footer_ul:hover {
+  color: #082A3A;
+}
+
 
 .footer_icons {
   display: flex;
@@ -541,8 +550,4 @@ footer {
 
 .fa-earth-americas:hover {
   color: #8099e9;
-}
-
-.footer_ul:hover {
-  color: darkblue;
 }
